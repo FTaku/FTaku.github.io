@@ -4,15 +4,66 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>福澤 拓真 | ポートフォリオ</title> 
+    <meta name="description" content="神奈川県藤沢市在住。これから色々と経験を積んで成長していけたらと思います。">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="IMG_0035.JPG" alt="プロフィール画像">
+        <h1>福澤 拓真</h1>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <h2>About</h2>
+        <h3>自己紹介</h3>
+        <p>福澤 拓真（学生）</p>
+        <p>神奈川県藤沢市在住。これから色々と経験を積んで成長していけたらと思います。</p>
+        <p>最近は、<span class="red">Ruby on Rails</span> を使ってマイプロダクトのプロトタイプを作成しています。</p>
+        <p>私のポートフォリオを見て気になった方は、<a href="#">Contact</a>よりご連絡お願い致します。</p>
+        
+        <h3>アプリ紹介</h3>
+        <div class="row myapp">
+          <div class="col-sm-3">
+            <p>アプリ１</p>
+            <img src="mock.png" alt="アプリ１画像">
+          </div>
+          <div class="col-sm-3">
+            <p>アプリ２</p>
+            <img src="mock.png" alt="アプリ２画像">
+          </div>
+          <div class="col-sm-3">
+            <p>アプリ３</p>
+            <img src="mock.png" alt="アプリ３画像">
+          </div>
+          <div class="col-sm-3">
+            <p>アプリ４</p>
+            <img src="mock.png" alt="アプリ４画像">
+          </div>
+        </div>
+        <h3>リンク</h3>
+        <ul>
+          <li><a href="https://github.com/FTaku" target="_blank">Github</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2016 Takuma Fukuzawa.</p>
+      </footer>
+    </div>
   </body>
 </html>
